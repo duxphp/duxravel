@@ -8,6 +8,7 @@ vendor
 /public/static/*
 /storage/*
 
+.env
 .env.backup
 yarn.lock
 package-lock.json
