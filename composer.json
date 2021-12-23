@@ -1,77 +1,78 @@
 {
-    "name": "duxphp/ravelcms",
-    "type": "project",
-    "description": "This CMS system based on laravel",
-    "keywords": [
-        "duxphp",
-        "laravel"
-    ],
-    "license": "MIT",
-    "require": {
-        "php": "^7.4|^8.0",
-        "ext-bcmath": "*",
-        "ext-fileinfo": "*",
-        "ext-json": "*",
-        "duxphp/duxravel-admin": "dev-main",
-        "duxphp/duxravel-app": "dev-main",
-        "duxphp/duxravel-article": "dev-main",
-        "duxphp/duxravel-static": "dev-main",
-        "itsgoingd/clockwork": "^5.1"
-    },
-    "require-dev": {
-        "composer/composer": "^2.1",
-        "facade/ignition": "^2.5",
-        "fakerphp/faker": "^1.9.1",
-        "kitloong/laravel-migrations-generator": "^4.5",
-        "mockery/mockery": "^1.4.2",
-        "nunomaduro/collision": "^5.0",
-        "phpunit/phpunit": "^9.3.3"
-    },
-    "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true
-    },
-    "extra": {
-        "laravel": {
-        }
-    },
-    "autoload": {
-        "psr-4": {
-            "Modules\\": "modules/",
-            "App\\": "app/",
-            "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "scripts": {
-        "post-autoload-dump": [
-            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "Duxravel\\Composer\\Scripts::postAutoloadDump",
-            "@php artisan package:discover --ansi"
-        ],
-        "post-root-package-install": [
-            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
-        ],
-        "post-create-project-cmd": [
-            "@php artisan key:generate --ansi",
-            "@php artisan vendor:publish --tag=\"duxravel\""
-        ],
-
-        "post-install-cmd": [
-            "Illuminate\\Foundation\\ComposerScripts::postInstall",
-            "Duxravel\\Composer\\Scripts::postInstall"
-        ],
-        "post-update-cmd": [
-            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
-            "Duxravel\\Composer\\Scripts::postUpdate"
-        ]
+  "name": "duxphp/ravelcms",
+  "type": "project",
+  "description": "This CMS system based on laravel",
+  "keywords": [
+    "duxphp",
+    "laravel"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^7.4|^8.0",
+    "ext-bcmath": "*",
+    "ext-fileinfo": "*",
+    "ext-json": "*",
+    "duxphp/duxravel-admin": "dev-main",
+    "duxphp/duxravel-app": "dev-main",
+    "duxphp/duxravel-cms": "dev-main",
+    "duxphp/duxravel-article": "dev-main",
+    "duxphp/duxravel-static": "dev-main",
+    "itsgoingd/clockwork": "^5.1"
+  },
+  "require-dev": {
+    "composer/composer": "^2.1",
+    "facade/ignition": "^2.5",
+    "fakerphp/faker": "^1.9.1",
+    "kitloong/laravel-migrations-generator": "^4.5",
+    "mockery/mockery": "^1.4.2",
+    "nunomaduro/collision": "^5.0",
+    "phpunit/phpunit": "^9.3.3"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
     }
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\": "modules/",
+      "App\\": "app/",
+      "Database\\Factories\\": "database/factories/",
+      "Database\\Seeders\\": "database/seeders/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
+    "post-autoload-dump": [
+      "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+      "Duxravel\\Composer\\Scripts::postAutoloadDump",
+      "@php artisan package:discover --ansi"
+    ],
+    "post-root-package-install": [
+      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+    ],
+    "post-create-project-cmd": [
+      "@php artisan key:generate --ansi",
+      "@php artisan vendor:publish --tag=\"duxravel\""
+    ],
+    "post-install-cmd": [
+      "Illuminate\\Foundation\\ComposerScripts::postInstall",
+      "Duxravel\\Composer\\Scripts::postInstall"
+    ],
+    "post-update-cmd": [
+      "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+      "Duxravel\\Composer\\Scripts::postUpdate",
+      "@php artisan vendor:publish --tag=\"duxravel\" --force"
+    ]
+  }
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5d1595870b8dda852c7a681f7e18ed7e",
+    "content-hash": "6a2fca7d79dde6fe21b21916d7d995a9",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -630,12 +630,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/duxphp/duxravel-admin.git",
-                "reference": "d93c68d81e218a9c757355f8a22f143d1a95eb8d"
+                "reference": "e87080b029c53cc1d8627347e116a3d031adb61a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/duxphp/duxravel-admin/zipball/d93c68d81e218a9c757355f8a22f143d1a95eb8d",
-                "reference": "d93c68d81e218a9c757355f8a22f143d1a95eb8d",
+                "url": "https://api.github.com/repos/duxphp/duxravel-admin/zipball/e87080b029c53cc1d8627347e116a3d031adb61a",
+                "reference": "e87080b029c53cc1d8627347e116a3d031adb61a",
                 "shasum": ""
             },
             "require": {
@@ -696,7 +696,7 @@
                 "issues": "https://github.com/duxphp/duxravel-admin/issues",
                 "source": "https://github.com/duxphp/duxravel-admin/tree/main"
             },
-            "time": "2021-12-10T09:33:31+00:00"
+            "time": "2021-12-23T03:03:58+00:00"
         },
         {
             "name": "duxphp/duxravel-app",
@@ -704,12 +704,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/duxphp/duxravel-app.git",
-                "reference": "86ef53bda672a5c0578d0a88ce482251323078bd"
+                "reference": "f020ce72d56e02fb4185b38b0f0491e771153d8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/duxphp/duxravel-app/zipball/86ef53bda672a5c0578d0a88ce482251323078bd",
-                "reference": "86ef53bda672a5c0578d0a88ce482251323078bd",
+                "url": "https://api.github.com/repos/duxphp/duxravel-app/zipball/f020ce72d56e02fb4185b38b0f0491e771153d8c",
+                "reference": "f020ce72d56e02fb4185b38b0f0491e771153d8c",
                 "shasum": ""
             },
             "require": {
@@ -762,7 +762,14 @@
                     ],
                     "event": [
                         "Duxravel\\Core\\Events\\App",
-                        "Duxravel\\Core\\Events\\ManageTable"
+                        "Duxravel\\Core\\Events\\ManageTable",
+                        "Duxravel\\Core\\Events\\ManageForm",
+                        "Duxravel\\Core\\Events\\ManageExport",
+                        "Duxravel\\Core\\Events\\ManageForm",
+                        "Duxravel\\Core\\Events\\ManageDel",
+                        "Duxravel\\Core\\Events\\ManageClear",
+                        "Duxravel\\Core\\Events\\ManageRecovery",
+                        "Duxravel\\Core\\Events\\ManageStatus"
                     ],
                     "listener": [
                         "Duxravel\\Core\\Listeners\\InstallSeed"
@@ -795,7 +802,7 @@
                 "issues": "https://github.com/duxphp/duxravel-app/issues",
                 "source": "https://github.com/duxphp/duxravel-app/tree/main"
             },
-            "time": "2021-12-21T08:31:06+00:00"
+            "time": "2021-12-22T08:32:02+00:00"
         },
         {
             "name": "duxphp/duxravel-article",
@@ -803,12 +810,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/duxphp/duxravel-article.git",
-                "reference": "a60888902b9fe125154a61f29fe37b47863a809c"
+                "reference": "0503d6fdd953507207b459c179e5b38f6bca1fdc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/duxphp/duxravel-article/zipball/a60888902b9fe125154a61f29fe37b47863a809c",
-                "reference": "a60888902b9fe125154a61f29fe37b47863a809c",
+                "url": "https://api.github.com/repos/duxphp/duxravel-article/zipball/0503d6fdd953507207b459c179e5b38f6bca1fdc",
+                "reference": "0503d6fdd953507207b459c179e5b38f6bca1fdc",
                 "shasum": ""
             },
             "require": {
@@ -864,7 +871,69 @@
                 "issues": "https://github.com/duxphp/duxravel-article/issues",
                 "source": "https://github.com/duxphp/duxravel-article/tree/main"
             },
-            "time": "2021-12-21T07:11:32+00:00"
+            "time": "2021-12-22T08:22:32+00:00"
+        },
+        {
+            "name": "duxphp/duxravel-cms",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/duxphp/duxravel-cms.git",
+                "reference": "7bdfa8fd8706a68603dce2bbb1c199bdd1f6bb85"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/duxphp/duxravel-cms/zipball/7bdfa8fd8706a68603dce2bbb1c199bdd1f6bb85",
+                "reference": "7bdfa8fd8706a68603dce2bbb1c199bdd1f6bb85",
+                "shasum": ""
+            },
+            "require": {
+                "duxphp/duxravel-app": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": [],
+                "laravel": {
+                    "providers": [
+                        "Modules\\Cms\\Providers\\CmsServiceProvider"
+                    ]
+                },
+                "duxravel": {
+                    "route": [
+                        "src/Cms/Route/AuthAdmin.php",
+                        "src/Cms/Route/Web.php"
+                    ],
+                    "menu": [
+                        "src/Cms/Menu/Admin.php"
+                    ],
+                    "listener": [
+                        "Modules\\Cms\\Listeners\\ManageForm"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Modules\\": "src",
+                    "Duxravel\\Cms\\Seeders\\": "database/seeders"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "DuxPHP",
+                    "email": "admin@duxphp.com"
+                }
+            ],
+            "description": "Duxravel CMS Application",
+            "support": {
+                "issues": "https://github.com/duxphp/duxravel-cms/issues",
+                "source": "https://github.com/duxphp/duxravel-cms/tree/main"
+            },
+            "time": "2021-12-22T09:09:13+00:00"
         },
         {
             "name": "duxphp/duxravel-installer",
@@ -926,12 +995,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/duxphp/duxravel-static.git",
-                "reference": "69bfa696e4afc098c578bc72bdbb10ae6fe1d316"
+                "reference": "f7a13df7fb877d5fd3d8466fa3428452c7aec40a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/duxphp/duxravel-static/zipball/69bfa696e4afc098c578bc72bdbb10ae6fe1d316",
-                "reference": "69bfa696e4afc098c578bc72bdbb10ae6fe1d316",
+                "url": "https://api.github.com/repos/duxphp/duxravel-static/zipball/f7a13df7fb877d5fd3d8466fa3428452c7aec40a",
+                "reference": "f7a13df7fb877d5fd3d8466fa3428452c7aec40a",
                 "shasum": ""
             },
             "require": {
@@ -965,7 +1034,7 @@
                 "issues": "https://github.com/duxphp/duxravel-static/issues",
                 "source": "https://github.com/duxphp/duxravel-static/tree/main"
             },
-            "time": "2021-12-21T08:35:06+00:00"
+            "time": "2021-12-23T03:04:41+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -2318,16 +2387,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.76.2",
+            "version": "v8.77.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "c67acfdc968f487b6235435080eef62a7e2ed055"
+                "reference": "994dbac5c6da856c77c81a411cff5b7d31519ca8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/c67acfdc968f487b6235435080eef62a7e2ed055",
-                "reference": "c67acfdc968f487b6235435080eef62a7e2ed055",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/994dbac5c6da856c77c81a411cff5b7d31519ca8",
+                "reference": "994dbac5c6da856c77c81a411cff5b7d31519ca8",
                 "shasum": ""
             },
             "require": {
@@ -2345,7 +2414,7 @@
                 "opis/closure": "^3.6",
                 "php": "^7.3|^8.0",
                 "psr/container": "^1.0",
-                "psr/log": "^1.0 || ^2.0",
+                "psr/log": "^1.0|^2.0",
                 "psr/simple-cache": "^1.0",
                 "ramsey/uuid": "^4.2.2",
                 "swiftmailer/swiftmailer": "^6.3",
@@ -2486,7 +2555,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-12-15T14:02:14+00:00"
+            "time": "2021-12-21T20:22:29+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -8102,21 +8171,22 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.1.14",
+            "version": "2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "cd28fc05b0c9d3beaf58b57018725c4dc15a6446"
+                "reference": "bbc265e16561ab8e0f5e7cac395ea72640251f0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/cd28fc05b0c9d3beaf58b57018725c4dc15a6446",
-                "reference": "cd28fc05b0c9d3beaf58b57018725c4dc15a6446",
+                "url": "https://api.github.com/repos/composer/composer/zipball/bbc265e16561ab8e0f5e7cac395ea72640251f0c",
+                "reference": "bbc265e16561ab8e0f5e7cac395ea72640251f0c",
                 "shasum": ""
             },
             "require": {
                 "composer/ca-bundle": "^1.0",
                 "composer/metadata-minifier": "^1.0",
+                "composer/pcre": "^1.0",
                 "composer/semver": "^3.0",
                 "composer/spdx-licenses": "^1.2",
                 "composer/xdebug-handler": "^2.0",
@@ -8146,7 +8216,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.1-dev"
+                    "dev-main": "2.2-dev"
                 }
             },
             "autoload": {
@@ -8180,7 +8250,7 @@
             "support": {
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/composer/issues",
-                "source": "https://github.com/composer/composer/tree/2.1.14"
+                "source": "https://github.com/composer/composer/tree/2.2.1"
             },
             "funding": [
                 {
@@ -8196,7 +8266,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-30T09:51:43+00:00"
+            "time": "2021-12-22T21:21:31+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -11799,6 +11869,7 @@
     "stability-flags": {
         "duxphp/duxravel-admin": 20,
         "duxphp/duxravel-app": 20,
+        "duxphp/duxravel-cms": 20,
         "duxphp/duxravel-article": 20,
         "duxphp/duxravel-static": 20
     },
