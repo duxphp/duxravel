@@ -630,12 +630,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/duxphp/duxravel-admin.git",
-                "reference": "e87080b029c53cc1d8627347e116a3d031adb61a"
+                "reference": "4e97561687d6250c69a082aeebc959358d77f7fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/duxphp/duxravel-admin/zipball/e87080b029c53cc1d8627347e116a3d031adb61a",
-                "reference": "e87080b029c53cc1d8627347e116a3d031adb61a",
+                "url": "https://api.github.com/repos/duxphp/duxravel-admin/zipball/4e97561687d6250c69a082aeebc959358d77f7fe",
+                "reference": "4e97561687d6250c69a082aeebc959358d77f7fe",
                 "shasum": ""
             },
             "require": {
@@ -696,7 +696,7 @@
                 "issues": "https://github.com/duxphp/duxravel-admin/issues",
                 "source": "https://github.com/duxphp/duxravel-admin/tree/main"
             },
-            "time": "2021-12-23T03:03:58+00:00"
+            "time": "2021-12-23T10:05:20+00:00"
         },
         {
             "name": "duxphp/duxravel-app",
@@ -704,12 +704,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/duxphp/duxravel-app.git",
-                "reference": "f020ce72d56e02fb4185b38b0f0491e771153d8c"
+                "reference": "cfafa9ea4161b020b8597b23acbce2ad08b04baf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/duxphp/duxravel-app/zipball/f020ce72d56e02fb4185b38b0f0491e771153d8c",
-                "reference": "f020ce72d56e02fb4185b38b0f0491e771153d8c",
+                "url": "https://api.github.com/repos/duxphp/duxravel-app/zipball/cfafa9ea4161b020b8597b23acbce2ad08b04baf",
+                "reference": "cfafa9ea4161b020b8597b23acbce2ad08b04baf",
                 "shasum": ""
             },
             "require": {
@@ -737,7 +737,6 @@
                 "overtrue/laravel-filesystem-qiniu": "^1.0",
                 "php": ">=7.4.0",
                 "phpoffice/phpspreadsheet": "^1.15",
-                "rtconner/laravel-tagging": "^4.1",
                 "tymon/jwt-auth": "^1.0"
             },
             "default-branch": true,
@@ -802,7 +801,7 @@
                 "issues": "https://github.com/duxphp/duxravel-app/issues",
                 "source": "https://github.com/duxphp/duxravel-app/tree/main"
             },
-            "time": "2021-12-22T08:32:02+00:00"
+            "time": "2021-12-23T10:08:40+00:00"
         },
         {
             "name": "duxphp/duxravel-article",
@@ -810,12 +809,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/duxphp/duxravel-article.git",
-                "reference": "0503d6fdd953507207b459c179e5b38f6bca1fdc"
+                "reference": "4f3078284ae05f3bfb1d55c835ff8185049d56d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/duxphp/duxravel-article/zipball/0503d6fdd953507207b459c179e5b38f6bca1fdc",
-                "reference": "0503d6fdd953507207b459c179e5b38f6bca1fdc",
+                "url": "https://api.github.com/repos/duxphp/duxravel-article/zipball/4f3078284ae05f3bfb1d55c835ff8185049d56d6",
+                "reference": "4f3078284ae05f3bfb1d55c835ff8185049d56d6",
                 "shasum": ""
             },
             "require": {
@@ -871,7 +870,7 @@
                 "issues": "https://github.com/duxphp/duxravel-article/issues",
                 "source": "https://github.com/duxphp/duxravel-article/tree/main"
             },
-            "time": "2021-12-22T08:22:32+00:00"
+            "time": "2021-12-23T10:06:57+00:00"
         },
         {
             "name": "duxphp/duxravel-cms",
@@ -879,12 +878,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/duxphp/duxravel-cms.git",
-                "reference": "7bdfa8fd8706a68603dce2bbb1c199bdd1f6bb85"
+                "reference": "04d159b6adfeadbb4e626ad470139dc467c89a1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/duxphp/duxravel-cms/zipball/7bdfa8fd8706a68603dce2bbb1c199bdd1f6bb85",
-                "reference": "7bdfa8fd8706a68603dce2bbb1c199bdd1f6bb85",
+                "url": "https://api.github.com/repos/duxphp/duxravel-cms/zipball/04d159b6adfeadbb4e626ad470139dc467c89a1e",
+                "reference": "04d159b6adfeadbb4e626ad470139dc467c89a1e",
                 "shasum": ""
             },
             "require": {
@@ -908,6 +907,7 @@
                         "src/Cms/Menu/Admin.php"
                     ],
                     "listener": [
+                        "Modules\\Cms\\Listeners\\InstallSeed",
                         "Modules\\Cms\\Listeners\\ManageForm"
                     ]
                 }
@@ -933,7 +933,7 @@
                 "issues": "https://github.com/duxphp/duxravel-cms/issues",
                 "source": "https://github.com/duxphp/duxravel-cms/tree/main"
             },
-            "time": "2021-12-22T09:09:13+00:00"
+            "time": "2021-12-23T10:04:06+00:00"
         },
         {
             "name": "duxphp/duxravel-installer",
@@ -5286,72 +5286,6 @@
                 }
             ],
             "time": "2021-09-25T23:10:38+00:00"
-        },
-        {
-            "name": "rtconner/laravel-tagging",
-            "version": "4.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/rtconner/laravel-tagging.git",
-                "reference": "228a1915c04f3bea414ca566b4c60e53dcc682ac"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/rtconner/laravel-tagging/zipball/228a1915c04f3bea414ca566b4c60e53dcc682ac",
-                "reference": "228a1915c04f3bea414ca566b4c60e53dcc682ac",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/database": ">=8.0",
-                "illuminate/support": ">=8.0",
-                "php": "^7.3|^8.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "1.*",
-                "orchestra/testbench": "6.*",
-                "phpunit/phpunit": "9.*",
-                "squizlabs/php_codesniffer": "3.*"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Conner\\Tagging\\Providers\\TaggingServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Conner\\Tagging\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Robert Conner",
-                    "email": "rtconner+composer@smarter.bz"
-                }
-            ],
-            "description": "Use PHP traits to extend Laravel Eloquent Models to allow Tags. Models can be marked as Taggable.",
-            "homepage": "https://smartersoftware.net/packages/laravel-tagging-taggable",
-            "keywords": [
-                "Taggable",
-                "eloquent",
-                "laravel",
-                "laravel5",
-                "tag",
-                "tagged",
-                "tagging",
-                "tags"
-            ],
-            "support": {
-                "issues": "https://github.com/rtconner/laravel-tagging/issues",
-                "source": "https://github.com/rtconner/laravel-tagging/tree/4.1.1"
-            },
-            "time": "2021-04-23T20:12:35+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
