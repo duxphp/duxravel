@@ -17,6 +17,7 @@
     "duxphp/duxravel-cms": "dev-main",
     "duxphp/duxravel-article": "dev-main",
     "duxphp/duxravel-static": "dev-main",
+    "duxphp/duxravel-installer": "dev-main",
     "itsgoingd/clockwork": "^5.1"
   },
   "require-dev": {
