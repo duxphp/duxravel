@@ -6,19 +6,18 @@
 <p align="center"><code>duxravel</code> 是一款基于Laravel框架的开源的中文后台管理系统，拥有更快、更便捷、易开发的定制化管理后台。</p>
 
 <p align="center">
-<a href="https://doc.duxravel.com">中文文档</a> |
-<a href="https://support.qq.com/products/331847/">产品讨论</a>
+<a href="https://duxphp.github.io/duxravel-doc">中文文档</a>
 </p>
 
 <p align="center">
-    <a href="https://packagist.org/packages/duxphp/ravelcms">
-        <img src="https://img.shields.io/github/v/release/duxphp/CMSRavel">
+    <a href="https://packagist.org/packages/duxphp/duxravel">
+        <img src="https://img.shields.io/github/v/release/duxphp/Duxravel">
     </a>
-    <a href="https://packagist.org/packages/duxphp/ravelcms">
-        <img src="https://img.shields.io/packagist/dt/duxphp/ravelcms.svg?style=flat-square">
+    <a href="https://packagist.org/packages/duxphp/duxravel">
+        <img src="https://img.shields.io/packagist/dt/duxphp/duxravel.svg?style=flat-square">
     </a>
-    <a href="https://packagist.org/packages/duxphp/ravelcms">
-        <img src="https://img.shields.io/packagist/l/duxphp/ravelcms.svg?maxAge=2592000&&style=flat-square" alt="Packagist">
+    <a href="https://packagist.org/packages/duxphp/duxravel">
+        <img src="https://img.shields.io/packagist/l/duxphp/duxravel.svg?maxAge=2592000&&style=flat-square" alt="Packagist">
     </a>
     <a href="https://github.com/laravel/laravel">
         <img src="https://img.shields.io/badge/dependence-laravel 8-red?style=flat-square">
@@ -54,7 +53,7 @@
 $ mkdir library && cd library
 
 // 安装项目
-$ composer create-project duxphp/ravelcms
+$ composer create-project duxphp/duxravel
 
 // 启动web服务访问安装向导
 http://localhost

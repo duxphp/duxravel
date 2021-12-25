@@ -704,12 +704,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/duxphp/duxravel-app.git",
-                "reference": "8f16737de2793adcb62c00521dc4690acbdbfe26"
+                "reference": "acb3ee8c626c15bfac0af8848e17d8f683ff5ac7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/duxphp/duxravel-app/zipball/8f16737de2793adcb62c00521dc4690acbdbfe26",
-                "reference": "8f16737de2793adcb62c00521dc4690acbdbfe26",
+                "url": "https://api.github.com/repos/duxphp/duxravel-app/zipball/acb3ee8c626c15bfac0af8848e17d8f683ff5ac7",
+                "reference": "acb3ee8c626c15bfac0af8848e17d8f683ff5ac7",
                 "shasum": ""
             },
             "require": {
@@ -801,7 +801,7 @@
                 "issues": "https://github.com/duxphp/duxravel-app/issues",
                 "source": "https://github.com/duxphp/duxravel-app/tree/main"
             },
-            "time": "2021-12-25T03:09:57+00:00"
+            "time": "2021-12-25T07:15:07+00:00"
         },
         {
             "name": "duxphp/duxravel-article",
@@ -10457,16 +10457,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.10",
+            "version": "9.5.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "c814a05837f2edb0d1471d6e3f4ab3501ca3899a"
+                "reference": "2406855036db1102126125537adb1406f7242fdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c814a05837f2edb0d1471d6e3f4ab3501ca3899a",
-                "reference": "c814a05837f2edb0d1471d6e3f4ab3501ca3899a",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2406855036db1102126125537adb1406f7242fdd",
+                "reference": "2406855036db1102126125537adb1406f7242fdd",
                 "shasum": ""
             },
             "require": {
@@ -10544,11 +10544,11 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.10"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.11"
             },
             "funding": [
                 {
-                    "url": "https://phpunit.de/donate.html",
+                    "url": "https://phpunit.de/sponsors.html",
                     "type": "custom"
                 },
                 {
@@ -10556,7 +10556,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-09-25T07:38:51+00:00"
+            "time": "2021-12-25T07:07:57+00:00"
         },
         {
             "name": "react/promise",
