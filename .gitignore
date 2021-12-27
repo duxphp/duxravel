@@ -9,6 +9,7 @@ vendor
 .env
 .env.backup
 yarn.lock
+composer.lock
 package-lock.json
 .phpunit.result.cache
 Homestead.json
