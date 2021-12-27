@@ -2,11 +2,9 @@
 node_modules
 vendor
 
-/bootstrap/cache/*
 /public/storage
 /public/upload
-/public/static/*
-/storage/*
+/public/static
 
 .env
 .env.backup
