@@ -14,10 +14,8 @@
     "ext-json": "*",
     "duxphp/duxravel-admin": "dev-main",
     "duxphp/duxravel-app": "dev-main",
-    "duxphp/duxravel-cms": "dev-main",
-    "duxphp/duxravel-article": "dev-main",
-    "duxphp/duxravel-static": "dev-main",
     "duxphp/duxravel-installer": "dev-main",
+    "duxphp/duxravel-static": "dev-main",
     "itsgoingd/clockwork": "^5.1"
   },
   "require-dev": {
