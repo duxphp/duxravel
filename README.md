@@ -6,7 +6,7 @@
 <p align="center"><code>duxravel</code> 是一款基于Laravel框架的开源的中文后台管理系统，拥有更快、更便捷、易开发的定制化管理后台。</p>
 
 <p align="center">
-<a href="https://duxphp.github.io/duxravel-doc">中文文档</a>
+<a href="https://www.duxravel.com">中文文档</a>
 </p>
 
 <p align="center">
