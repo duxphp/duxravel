@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://www.duxravel.com/">
-    <img src="https://github.com/duxphp/CMSRavel/blob/main/resources/image/watermark.png?raw=true" width="100" height="100">
+    <img src="https://github.com/duxphp/duxravel/blob/main/resources/image/watermark.png?raw=true" width="100" height="100">
 </a>
 
 <p align="center"><code>duxravel</code> 是一款基于Laravel框架的开源的中文后台管理系统，拥有更快、更便捷、易开发的定制化管理后台。</p>
