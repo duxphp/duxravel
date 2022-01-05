@@ -12,13 +12,11 @@
     "ext-bcmath": "*",
     "ext-fileinfo": "*",
     "ext-json": "*",
-    "beyondcode/laravel-websockets": "^1.12",
     "duxphp/duxravel-admin": "dev-main",
     "duxphp/duxravel-app": "dev-main",
     "duxphp/duxravel-installer": "dev-main",
     "duxphp/duxravel-static": "dev-main",
-    "itsgoingd/clockwork": "^5.1",
-    "pusher/pusher-php-server": "~3.0"
+    "itsgoingd/clockwork": "^5.1"
   },
   "require-dev": {
     "composer/composer": "^2.1",
